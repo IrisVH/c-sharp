@@ -60,7 +60,7 @@ public class DatosdePrueba
         
         foreach (var producto in ListadeProductos)
         {
-            Console.Write(producto.Codigo + " | " + producto.Descripcion + " | " + producto.Precio);
+            Console.WriteLine(producto.Codigo + " | " + producto.Descripcion + " | " + producto.Precio);
         }
 
         Console.ReadLine();
@@ -75,7 +75,7 @@ public class DatosdePrueba
         
         foreach (var cliente in ListadeClientes)
         {
-            Console.Write(cliente.Codigo + " | " + cliente.Nombre + " | " + cliente.Telefono);
+            Console.WriteLine(cliente.Codigo + " | " + cliente.Nombre + " | " + cliente.Telefono);
         }
 
         Console.ReadLine();
@@ -90,7 +90,7 @@ public class DatosdePrueba
         
         foreach (var vendedor in ListadeVendedores)
         {
-            Console.Write(vendedor.Codigo + " | " + vendedor.Nombre + " | " + vendedor.CodigoVendedor);
+            Console.WriteLine(vendedor.Codigo + " | " + vendedor.Nombre + " | " + vendedor.CodigoVendedor);
         }
 
         Console.ReadLine();
