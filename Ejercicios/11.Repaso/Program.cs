@@ -6,8 +6,7 @@ namespace _11_Repaso_POO
     {
         static void Main(string[] args)
         {
-            int numero = 5;
-            string nombre = "Pedro";
+            
 
             Utilerias u = new Utilerias();
             u.FormatoMoneda(100);
@@ -23,12 +22,12 @@ namespace _11_Repaso_POO
             // Persona persona = new Persona();
             // persona.EnviarMensaje("Juan");
 
-            a.EnviarMensaje();
+            a1.EnviarMensaje();
             p.EnviarMensaje();
             g.EnviarMensaje();
 
 
-            Console.WriteLine(a.Nombre + " " + a.NoCarnet);
+            Console.WriteLine(a1.Nombre + " " + a1.NoCarnet);
             Console.WriteLine(p.Nombre + " " + p.Salario.ToString());
             Console.WriteLine(g.Nombre + " " + g.Salario.ToString());
         }
